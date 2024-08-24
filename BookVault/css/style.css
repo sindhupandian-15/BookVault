@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color:rgb(32, 31, 31);
+    color:rgb(239, 235, 236);
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+    background-image: url(../image/library.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.warm-container{
+        background: rgba(255, 255, 255, 0.1); /* White with opacity */
+        border-radius: 10px;
+        padding: 20px;
+        backdrop-filter: blur(10px); /* Creates the blur effect */
+        -webkit-backdrop-filter: blur(10px); /* For Safari */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: Border for a more pronounced effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for depth */
+        color: rgb(255, 255, 255); /* Text color */
+        display: inline-block;
+        vertical-align: top;
+        margin: 30px;
+        width: 300px;
+
+}
+.warm-container h2{
+    color:yellow;
+}
+.warm-container h5{
+    color: greenyellow;
+    font-size: bold;
+}
+.dle{
+    background-color:#ef2d2dcb;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+
+}
+.add-button{
+    background-color:#6afd657c;
+    color: white;
+    border-radius: 100%;
+    padding-top:20px ;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+.popup-overlay{
+    background-color: #1b1a1a;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color:#ebcaeb91;
+    width: 40%;
+    color: rgb(18, 20, 21);
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 10px;
+    color: rgb(240, 244, 246);
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid rgb(35, 184, 243) 2px;
+}
+.popup-box textarea{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    color:white;
+    font-size: 20px;
+    border: solid rgb(35, 184, 243)2px;
+}
+.popup-box input::placeholder{
+    color:rgb(7, 8, 8);
+}
+.popup-box textarea::placeholder{
+    color: rgb(7, 8, 8);
+   
+}
+ #add-book{
+    background-color: #189a14ee;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white; 
+    margin: 5px;
+    cursor: pointer;
+}
+#cancel-popup{
+    background-color: #ef2d2ddd;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white; 
+    margin: 5px;
+    cursor: pointer;
+}
+.popup-box input:focus{
+    outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+}

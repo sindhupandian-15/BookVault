@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVault</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+ <div class="nav">
+    <h1>BOOKVAULT 📚</h1>
+ </div>
+ <div class="container">
+    <div class="warm-container">
+        <h2>It Ends With Us</h2>
+        <h5 style="margin: 10px 0px;"> Colleen Hoover</h5>
+        <p>Lily Bloom moves to Boston to chase her lifelong dream of opening her own business. A chance meeting with charming neurosurgeon Ryle Kincaid soon sparks an intense connection, but as the two fall deeply in love, she begins to see sides of Ryle that remind her of her parents' relationship. When Lily's first love, Atlas Corrigan, suddenly reenters her life, her relationship with Ryle gets upended, leaving her with an impossible choice.
+             </p>
+        <button class="dle" onclick="deletebook(event)">Delete</button>     
+    </div>
+ </div>
+ <div class="popup-overlay"></div>
+   <div class="popup-box">
+    <h2>Add Book</h2>
+    <form>
+        <input type="text" placeholder="Book Title" id="book-title-input">
+        <input type="text" placeholder="Book Author" id="book-author-input">
+        <textarea placeholder="short description" id="book-description-input"></textarea>
+        <button id="add-book">Add</button>
+        <button id="cancel-popup">Cancel</button>
+    </form>
+   </div>
+   <button class="add-button" id="add-popup-button">+</button>
+   <script src="../js/book.js"></script>
+
+</body>
+</html>
+
+
+
+
